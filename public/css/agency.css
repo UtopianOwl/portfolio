@@ -146,6 +146,11 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   background-color: white;
 }
+.btn-round {
+    border-radius: 50%;!important
+    border: 4px #fed136;
+    
+}
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
@@ -230,7 +235,7 @@ header {
     color: white;
     text-align: center;
 }
-header .blur {
+header .blur.home {
   position: relative;
   height: 960px;
   z-index: -1;
@@ -246,14 +251,23 @@ header .blur {
   text-align: center;
   color: white;
 
- -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+ -webkit-filter: brightness(40%);
+  -moz-filter: brightness(40%);
+  -o-filter: brightness(40%);
+  -ms-filter: brightness(40%);
+  filter: brightness(40%);
     
 }
-header .container {
+
+img.slide-img {
+    -webkit-filter: brightness(40%);
+  -moz-filter: brightness(40%);
+  -o-filter: brightness(40%);
+  -ms-filter: brightness(40%);
+  filter: brightness(40%);
+}
+
+header .container.home {
     z-index: 1;
     position: relative;
     top: -960px;
@@ -762,3 +776,23 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+.skills-logo {
+    height: 200px;
+    text-align: center;
+}
+
+.skills-logo:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+
+.skills-logo img {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 200px;
+    max-width: 300px;
+}
+
