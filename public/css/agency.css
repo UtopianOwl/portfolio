@@ -231,13 +231,26 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-    height: 960px;
+    height: 720px;
     color: white;
     text-align: center;
 }
 header .blur.home {
+    background-image: url('../img/header-home-bg.jpg');
+}
+header .blur.about {
+    background-image: url('../img/header-about-bg.jpg');
+}
+header .blur.blog {
+    background-image: url('../img/header-blog-bg.jpg');
+}
+header .blur.post {
+    background-image: url('../img/header-post-bg.jpg');
+}
+
+header .blur {
   position: relative;
-  height: 960px;
+  height: 720px;
   z-index: -1;
     
   background-image: url('../img/header-bg.jpg');
@@ -270,7 +283,22 @@ img.slide-img {
 header .container.home {
     z-index: 1;
     position: relative;
-    top: -960px;
+    top: -720px;
+}
+header .container.post {
+    z-index: 1;
+    position: relative;
+    top: -720px;
+}
+header .container.about {
+    z-index: 1;
+    position: relative;
+    top: -810px;
+}
+header .container.blog {
+    z-index: 1;
+    position: relative;
+    top: -720px;
 }
 
 
