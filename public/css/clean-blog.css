@@ -4,11 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 a {
-  color: #fed136;
+  color: #0D9CFF;
 }
 a:hover,
 a:focus {
-  color: #555;
+  color: #fec503;
 }
 a img:hover,
 a img:focus {
@@ -103,12 +103,12 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #fed136;
+  color: #0D9CFF;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #555;
+  color: #fec503;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -128,11 +128,11 @@ hr.small {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #fed136;
+  color: #0D9CFF;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #555;
+  color: #fec503;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
